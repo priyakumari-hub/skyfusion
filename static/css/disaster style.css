@@ -1,0 +1,71 @@
+*{
+    text-decoration:none;
+}
+
+body{
+   margin:0;
+   padding:0;
+   color:white;
+   font-family: 'Segoe UI', sans-serif;
+   background: linear-gradient(#0f2027, #203a43, #2c5364);
+   text-align: center;    
+}
+
+h1
+{
+      background: #ed246d;
+      padding: 1.5rem;
+     margin: 0;
+      color: white;
+}
+
+header a
+{
+  color:white;
+  font-size:1.5rem;
+}
+
+
+#disasterType,#timePeriod
+{
+    width:20rem;
+    padding:2rem;
+   margin-top:3rem;
+   margin-left:1rem;  
+   background-color:#9dd4f3;
+}
+
+#getDisasters
+{
+   width:12rem;
+   height:5rem;
+   padding:2rem;
+  background-color:#ed246d;
+  margin:1rem;
+  font-weight:bold;
+  border-radius:10px;
+ border:none;
+}
+
+#disasterResult
+{
+ margin-top:5rem;
+}
+
+#disasterResult h1
+{
+  background-color: #0f2027
+}
+
+#clean
+{
+  background-color: #ff9800;
+  width:10rem;
+   height:5rem;
+  padding:2rem;
+ border:none;
+ border-radius:10px;
+ margin:1rem;
+ font-weight:bold;
+}
+

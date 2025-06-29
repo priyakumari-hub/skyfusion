@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>SKY FUSION</title>
+<link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+</head>
+<body>
+     <h1>🌌 SKY FUSION</h1>
+    <h3>Your gateway to real-time weather,space events, and natural disaters</h3>
+    <div class="container">
+          <h2>SELECT A FEATURE</h2>
+          <div class="shortcut"><a href="{{url_for('weather_page')}}">🌤️  Weather Info</div>
+          <div class="shortcut"><a href="{{url_for('apod_page')}}">🛰️ Nasa Picture</div>
+          <div class="shortcut"><a href="{{url_for('space_page')}}">☄️ Space Weather</div>
+          <div class="shortcut"><a href="{{url_for('disaster_page')}}">🌪️  Disaster Tracker</div>
+   </div>
+<footer>@2025 Sky Fusion.All right reserved.</footer>
+</body>
+</html>

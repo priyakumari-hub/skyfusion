@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Disaster Tracker-Sky Fusion</title>
+<link rel="stylesheet" href="{{url_for('static',filename='css/disaster style.css')}}">
+</head>
+<body>
+<header>
+<h1>🌪️  Disaster Tracker</h1>
+ <a href="{{url_for('index')}}">← Back to Home</a>
+</header>
+<select id="disasterType">
+  <option value="">-- Select Disaster Type --</option>
+  <option value="wildfires">Wildfires</option>
+  <option value="earthquakes">Earthquakes</option>
+  <option value="volcanoes">Volcanoes</option>
+  <option value="floods">Floods</option>
+  <option value="snow">Snow</option>
+  <option value="severeStorms">Severe Storms</option>
+  <option value="landslides">Landslides</option>
+ <option value="seaLakeIce">Sea and Lake Ice / Iceberg</option>
+</select>
+
+<select id="timePeriod">
+<option value="">-- Time Period --</option>
+  <option value="7">Past 7 Days</option>
+  <option value="15">Past 15 Days</option>
+  <option value="30">Past 30 Days</option>
+  <option value="45">Past 45 Days</option>
+  <option value="90">Past 90 Days</option>
+  <option value="120">Past 120 Days</option>
+  <option value="360">Past 1 year</option>
+</select>
+<button id="getDisasters">Get Disaster Info</button>
+<button id="clean" onclick="clean()">Clear</button>
+
+<div id="disasterResult"></div>
+<script src="{{url_for('static',filename='js/script3.js')}}"></script>
+</body>
+</html>

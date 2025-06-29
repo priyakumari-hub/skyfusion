@@ -1,0 +1,94 @@
+*{
+    text-decoration:none;
+}
+
+body{
+   margin:0;
+   padding:0;
+   color:white;
+   font-family: 'Segoe UI', sans-serif;
+   background: linear-gradient(#0f2027, #203a43, #2c5364);
+   text-align: center;    
+}
+
+h1
+{
+      background:#07c399;
+      padding: 1.5rem;
+      color: white;
+      margin:0;
+     width:100%
+}
+
+header a
+{
+      color: white;
+      text-decoration: none;
+      font-size:1.5rem;
+}
+
+.container
+{
+   width:90%;
+   padding:2rem;
+   margin-top:1.5rem;
+   margin-left:3rem;  
+   display:flex;
+   flex-direction:row;
+   justify-content:space-between;
+   align-items:center;
+
+}
+
+h3
+{
+  font-size:1.5rem;   
+}
+
+#eventType,#startDate,#endDate
+{
+   width:18rem;
+   height:3rem;
+   margin-right:1rem;
+}
+
+label
+{
+  font-size:1.3rem;
+}
+
+.event-summary {
+  background: #1e1f3a;
+  color: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 18px;
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.15);
+  line-height: 1.6;
+}
+
+#button
+{
+  background-color: #ff9800;
+  width:15rem;
+   height:4rem;
+ align-text:center;
+ border:none;
+ border-radius:10px;
+ margin:0.5rem;
+ font-weight:bold;
+}
+
+
+.event-summary img {
+  max-width: 100%;
+  margin-top: 12px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 194, 255, 0.2);
+}
+
+
+.event-summary a {
+  color: #00d1ff;
+  text-decoration: underline;
+}

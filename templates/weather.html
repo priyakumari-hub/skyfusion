@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Weather App</title>
+<link rel="stylesheet" href="{{url_for('static',filename='css/weather-style.css')}}">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body style="background-image:url('{{url_for('static',filename='images/download(8).webp.') }}');">
+     <h1>Weather App</h1>
+    <input type="text" id="city" placeholder="Enter city name">
+    <button id="getWeather">Get Weather</button>
+    <div id="result"></div>
+    <div id="b1"><a href="{{url_for('index')}}">Back To Home</div>
+<script src="{{url_for('static',filename='js/script.js')}}"></script>
+</body>
+</html>

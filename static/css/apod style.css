@@ -1,0 +1,68 @@
+*{
+    text-decoration:none;   
+}
+
+body{
+   margin:0;
+   padding:0;
+   color:white;
+   font-family: 'Segoe UI', sans-serif;
+   text-align: center;    
+  background: linear-gradient(#0f2027, #203a43, #2c5364);
+}
+
+h1
+{
+  background-color:#897ecb;
+  font-size:2.5rem;
+  padding:1.75rem;
+  margin: 0;
+  color: white;
+ text-align:center;
+}
+
+header a
+{
+  color:white;
+  font-size:1.5rem;
+}
+
+#container
+{
+    box-shadow:0 0 0 rgb(0,0,0,1);
+    border-radius:5px;
+}
+
+#input
+{
+    font-size:2rem;
+    margin-top:3rem; 
+}
+
+#apodDate
+{
+   width:10rem;
+   height:3rem;
+  gap:10;
+}
+
+#apodBtn
+{
+  background-color:#ff9800;
+ font-weight:bold;
+ gap:10;
+  height:3rem;
+ width:10rem;
+}
+
+#apodContent
+{
+    margin:5rem;
+}
+
+.apod-content img,.apod-content iframe
+{
+  width:100%;
+  max-height:500px;
+  border-radius:12px;
+}

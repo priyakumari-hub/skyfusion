@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>NASA APOD - SKY FUSION</title>
+  <link rel="stylesheet" href="{{url_for('static',filename='css/apod style.css')}}">
+</head>
+<body>
+<header>
+ <h1>🛰️  NASA Astronomy Picture of the Day</h1>
+<a href="{{url_for('index')}}">← Back to Home</a>
+</header> 
+<div class="container"> 
+      <div id="input">
+      <label for="apodDate">Choose a Date:</label>
+      <input type="date" id="apodDate"/>
+      <button id="apodBtn">Get Picture</button>
+    </div>
+    <div id="apodContent" class="apod-content"></div>
+</div>
+<script src="{{url_for('static',filename='js/apod.js')}}"></script>
+</body>
+</html>

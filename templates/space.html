@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Space Weather-Sky Fusion</title>
+<link rel="stylesheet" href="{{url_for('static',filename='css/space style.css')}}">
+</head>
+<body>
+<header>
+<h1>☄️  NASA Space Weather Viewer</h1>
+<a href="{{url_for('index')}}">← Back to Home</a>
+</header>
+<div class="container">
+  <label for="eventType">Event Type:</label>
+  <select id="eventType">
+    <option value="CME">CME ( CORONAL MASS EJECTION )</option>
+    <option value="GST">GST ( GEOMAGNETIC STORMS )</option>
+    <option value="FLR">FLR ( SOLAR FLARE )</option>
+    <option value="SEP">SEP ( SOLAR PARTICLES ) </option>
+    <option value="notifications">Notifications</option>
+  </select><br><br>
+
+  <label  for="startDate">Start Date:</label>
+  <input type="date" id="startDate"><br><br>
+
+  <label for="endDate">End Date:</label>
+  <input type="date" id="endDate"><br><br>
+</div>
+
+  <button id="button" onclick="fetchSpaceData()">Get Space Weather</button>
+
+  <h3>Results:</h3>
+  <div id="output"></div>
+  <pre id="rawJson"></pre>
+
+<script src="{{url_for('static',filename='js/space.js')}}"></script>
+</body>
+</html>
