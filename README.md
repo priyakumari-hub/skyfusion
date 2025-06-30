@@ -16,6 +16,7 @@ This project was built with the aim of creating a centralized platform where use
 sky-fusion/
 ├── app.py
 ├── .gitignore
+├── requirements.txt
 ├── templates/
 │   ├── main.html
 │   ├── disaster.html
@@ -41,7 +42,10 @@ sky-fusion/
 
 **DEMO VIDEO LINK**
    CLICK HERE TO VIEW : 
-    https://drive.google.com/drive/folders/1qNv-Faae4kaQ12CW6E_r2_rcrQyor6g0
+    https://drive.google.com/drive/folders/1qNv-Faae4kaQ12CW6E_r2_rcrQyor6g0**
+
+**LIVE URL**
+https://skyfusion.onrender.com 
 
 **Technologies Used**
 
