@@ -12,7 +12,8 @@ This project was built with the aim of creating a centralized platform where use
 
 **FILE STRUCTURE**
 
-```sky-fusion/
+```
+sky-fusion/
 ├── app.py
 ├── .gitignore
 ├── templates/
@@ -24,7 +25,8 @@ This project was built with the aim of creating a centralized platform where use
 ├── static/
 │   ├── css/
 │   ├── js/
-|   ├── images/```
+|   ├── images/
+```
 
 
 
