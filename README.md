@@ -12,7 +12,7 @@ This project was built with the aim of creating a centralized platform where use
 
 **FILE STRUCTURE**
 
-sky-fusion/
+```sky-fusion/
 ├── app.py
 ├── .gitignore
 ├── templates/
@@ -24,10 +24,9 @@ sky-fusion/
 ├── static/
 │   ├── css/
 │   ├── js/
-|   ├── images/
+|   ├── images/```
 
 
-    sky-fusion/ ├── app.py                               # Python dependencies ├── templates/                 # HTML templates for all pages │   ├── main.html │   ├── weather.html │   ├── apod.html │   ├── space.html │   └── disaster.html ├── static/                    # Static files (CSS & JS) │   ├── css/ │   │   └── style.css │   └── js/ │       ├── script.js │       ├── apod.js │       ├── space.js │       └── disaster.js ├── docs/                      # Optional: static folder for GitHub Pages │   └── index.html └── README.md                  # Project documentation
 
 **Features**
 
