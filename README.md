@@ -16,8 +16,11 @@ sky-fusion/
 ├── app.py
 ├── .gitignore
 ├── templates/
-│   ├── index.html
-│   ├── ...
+│   ├── main.html
+│   ├── disaster.html
+|   ├── apod.html
+|   ├── space.html
+|   ├── weather.html
 ├── static/
 │   ├── css/
 │   ├── js/
