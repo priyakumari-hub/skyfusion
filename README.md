@@ -25,7 +25,9 @@ sky-fusion/
 │   ├── css/
 │   ├── js/
 |   ├── images/
-    
+
+
+    sky-fusion/ ├── app.py                               # Python dependencies ├── templates/                 # HTML templates for all pages │   ├── main.html │   ├── weather.html │   ├── apod.html │   ├── space.html │   └── disaster.html ├── static/                    # Static files (CSS & JS) │   ├── css/ │   │   └── style.css │   └── js/ │       ├── script.js │       ├── apod.js │       ├── space.js │       └── disaster.js ├── docs/                      # Optional: static folder for GitHub Pages │   └── index.html └── README.md                  # Project documentation
 
 **Features**
 
