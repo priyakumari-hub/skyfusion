@@ -70,7 +70,7 @@ function formatEvent(eventType, item, index) {
       const kpIndex = item.allKpIndex?.[0]?.kpIndex || "Unknown";
       const observedTime = item.allKpIndex?.[0]?.observedTime || "N/A";
       const formattedObs = observedTime !== "N/A" ? formatDate(observedTime) : "N/A";
-      image = `<img src="C:/Users/DELL/Documents/priya1/agnirva/static/images/download (3).jpg" alt="Geomagnetic Storm" />`;
+      image = `<img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/152000/152815/sinha_aurorasaurus_pho_20240411_front.jpg" alt="Geomagnetic Storm" />`;
 
       summary = `
         🌍 <b>Geomagnetic Storm (GST)</b><br>
@@ -89,7 +89,7 @@ function formatEvent(eventType, item, index) {
       const flareLocation = item.sourceLocation || "Unknown";
       const flareInstruments = item.instruments?.map(i => i.displayName).join(", ") || "Not listed";
      const flareLink = item.link ? `<a href="${item.link}" target="_blank">🔗 View More</a>` : "";
-     const flareImage =` <img src="C:/Users/DELL/Documents/priya1/agnirva/static/images/images.jpg" alt="Solar Flare" />`;
+     const flareImage =` <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLKsiRNHvaZTeTg5H0CgnEDPNG4t_DMu-jIQ&s" alt="Solar Flare" />`;
 
      summary = `
        🔆 <b>Solar Flare (FLR)</b><br>
@@ -106,7 +106,7 @@ function formatEvent(eventType, item, index) {
     case "SEP":
       const peakFlux = item.protonFlux?.[0]?.flux || "N/A";
       const energy = item.protonFlux?.[0]?.energy || "N/A";
-      image =` <img src=" C:/Users/DELL/Documents/priya1/agnirva/static/images/images (1).jpg" alt="Solar Energetic Particles" />`;
+      image =` <img src="https://svs.gsfc.nasa.gov/vis/a020000/a020300/a020320/SEP_activeregionview_v01160_print.jpg" alt="Solar Energetic Particles" />`;
 
       summary = `
         🧬 <b>Solar Energetic Particles (SEP)</b><br>
@@ -121,7 +121,7 @@ function formatEvent(eventType, item, index) {
     case "notifications":
       const msgType = item.messageType || "N/A";
       const msgBody = item.messageBody?.slice(0, 300) || "No message.";
-      image =` <img src="https://www.nasa.gov/sites/default/files/thumbnails/image/heliophysics_illustration.jpg " alt="Notification" />`;
+      image =` <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuOLmYuLQ97QHysiE025i_O4w-3IbZ3k0Fxg&s" alt="Notification" />`;
 
       summary = `
         📢 <b>Space Weather Notification</b><br>
